@@ -1,0 +1,75 @@
+.por-que{
+	position: relative;
+	width: 100%;
+	box-sizing: border-box;
+	text-align: center;
+	background-color: #3ca5d5;
+}
+.por-que h2{
+	margin-top: 20px;
+	font-size: 24px;
+	line-height: 30px;
+	font-family: arial;
+	color: #305983;
+	position: relative;
+	display: inline-block;
+}
+#pq-title:before{
+	content: "";
+	position: absolute;
+	width: 0px;
+	border: solid 1px red;
+	bottom: 0;
+}
+#pq-title:hover:before{
+	width: 100%;
+	transition: 2s;
+}
+.motivos{
+	position: relative;
+	margin: 0 auto;
+	max-width: 1210px;
+	margin-top: 50px;
+}
+.motivos2{
+	position: relative;
+	display: flex;
+	align-items: center;
+	width: 100%;
+	height: auto;
+}
+
+.content{
+	width: 50%;
+}
+.content h1{
+	text-align: left;
+	margin-top: 10px;
+	line-height: 1;
+	font-size: 40px;
+	text-rendering: optimizeLegibility;
+	font-family: "DIN", Arial, sans-serif;
+	font-weight: 800;
+	color: #FFFFFF;
+}
+.content p{
+	margin-top: 30px;
+	text-align: left;
+	font-size: 21px;
+	line-height: 32px;
+	color: #FFF;
+}
+.img-phone{
+	background-image: url(../phone.png);
+	background-repeat: no-repeat;
+	height: 0;
+	padding-bottom: 27%;
+	margin: auto;
+	margin-bottom: 30px;
+	border: solid 8px #FFF;
+	width: 40%;
+	background-color: white;
+	box-shadow: 0 10px 35px rgb(0 0 0 / 30%);
+	background-size: cover;
+    background-position: center;
+}

@@ -1,0 +1,108 @@
+.area-btu{
+	width: 270px;
+	height: 0px;
+	position: fixed;
+	top: 30%;
+	z-index: 2000;
+	display: flex;
+	align-items: flex-start;
+	background-color: white;	
+	transform: translateX(240px);
+	right: 0;
+	transition: 1s;
+}
+.area-btuh{
+	transform: translateX(0px);
+	transition: 1s;
+}
+.botao-btu{
+	width: 120px;
+	height: 30px;
+	background-color: #2C3256;
+	white-space: nowrap;
+	display: flex;
+	justify-content: center;
+	transform: translate(-45px,45px) rotate(-90deg);
+}
+.botao-fechar{
+	margin-top: 25px;
+	width: 100px;
+	transform: translate(-35px,40px) rotate(-90deg);
+}
+.botao{
+	text-decoration: none;
+	color: white;
+	font-family: sans-serif;
+}
+.area-dados{
+	position: absolute;
+	border-radius: 5px;
+	height: auto;
+	text-align: center;
+	text-align: left;
+	width: 250px;
+	margin-left: 30px;
+	background-color: white;
+	display: flex;
+	flex-direction: column;
+	box-sizing: border-box;
+	
+}
+
+.area-dados h1{
+	padding-top: 20px;
+}
+
+.form_calc{
+	max-width: 200px;
+	margin: 0 auto;
+	margin-top: 10px;
+	color: #2C3256;
+	
+}
+.form_calc label{
+	display: flex;
+	margin-top: 15px;
+	flex-direction: column;
+}
+
+.form_calc input{
+	border: none;	
+	margin-top: 10px;
+	background-color: white;
+	border-bottom: solid 0.1px #2C3256;
+}
+.valor-calculo{
+	width: 200px;
+	margin: 0 auto;
+	margin-top: 20px;
+	height: 50px;
+	display: flex;
+	background-color:  #2C3256;
+	align-items: center;
+	flex-direction: column;
+	justify-content: space-between;
+	display: none;
+	color: white;
+	
+}
+.valor-calculo2{
+	display: flex;
+}
+#botao-calcular{
+	margin: 0 auto;
+	margin-top: 15px;
+	width: 200px;
+	background-color: #2C3256;
+	border: none;
+	color: white;
+	cursor: pointer;
+	font-size: 1em;
+	letter-spacing: 0.1em;
+	max-width: 200px;
+	height: 30px;
+}
+
+.input-erro{
+	background-color: blue;
+}

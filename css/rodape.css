@@ -1,0 +1,74 @@
+.rodape{
+	width: 100%;
+	margin-top: 50px;
+	display: flex;
+	height: auto;
+	flex-direction: column;
+}
+.rodape-first{
+	position: relative;
+	height: 80px;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	background-color: #0c0d0d;
+	justify-content: center;
+}
+.rodape-second{
+	position: relative;
+	width: 100%;
+	height: 90px;
+	background-color: #1a1c1c;
+	display: flex;
+	justify-content: center;
+	align-items: flex-end;
+}
+.rodape-second div{
+	position: relative;
+	height: 30px;
+	width: 250px;
+	text-align: center;	
+	color: white;
+	font-family: arial;
+	font-size: 15px;
+	border: solid 1px #1a1c1c;
+}
+.redes-rodape{
+	width: 100%;
+	max-width: 1210px;
+	height: 100%;
+	align-items: center;
+	display: flex;
+	justify-content: space-between;
+}
+.redes i{
+	font-size: 30px;
+	margin: 2px;
+	transition: 1s;
+}
+.redes i:hover{
+	color: grey;
+	transition: 1s;
+}
+.botao-wpp{
+	width: 110px;
+	height: 40px;
+	text-align: right;
+	background-color: green;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.botao-wpp i{
+	font-size: 30px;
+	padding: 5px;
+}
+.botao-wpp a{
+	text-decoration: none;
+	color: white;
+	font-size: 15px;
+}
+.redes a{
+	text-decoration: none;
+}
+

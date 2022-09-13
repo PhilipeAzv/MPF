@@ -1,0 +1,45 @@
+.cards-container{
+	position: relative;
+	width: 100%;
+	
+	height: auto;
+	margin-top: 40px; 
+}
+.area-cartoes{
+	position: relative;
+	display: flex;
+	flex-wrap: wrap;
+	width: 100%;
+	max-width: 1210px;
+	margin: 0 auto;
+	margin-top: 30px;
+	height: auto;
+	justify-content: center;
+	align-items: center;
+}
+.card{
+	position: relative;
+	width: 180px;
+	height: 200px;
+	background-color: #1cb5e0;
+	margin: 10px;
+	transform: 800ms;
+	text-align: center;
+}
+
+.card i{
+	margin-top: 30%;
+	font-size: 50px;
+	color: white;
+}
+.card p{
+	margin-top: 20px;
+	text-transform: uppercase;
+	font-family: Arial;
+	font-size: 16px;
+	color: white;
+}
+.card:hover{
+	transform: scale(.9);
+	transition: 800ms;
+}

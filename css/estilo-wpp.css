@@ -1,0 +1,45 @@
+.whatsapp{
+	position: fixed;
+	bottom: 0;
+	right: 0;
+	margin-right: 30px;
+	margin-bottom: 10px;
+	width: 60px;
+	height: 60px;
+	background-color: green;
+	border-radius: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.whatsapp:after{
+	content: "";
+	position: absolute;
+	border: solid 2px green;
+	box-shadow: -1px 2px 18px 1px #42FF38;
+	width: 0px;
+	height: 0px;
+	transition: 600ms;
+	border-radius: 50%;
+	visibility: hidden;
+}
+.whatsapp:hover:after{
+	visibility: visible;
+	width: 60px;
+	height: 60px;
+	transition: 600ms;
+	z-index: -1;	
+}
+.whatsapp a{
+	text-decoration: none;
+	
+}
+.whatsapp i{
+	font-size: 50px;
+}
+
+@media (max-width: 1007px)
+{
+	
+}

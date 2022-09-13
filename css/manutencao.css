@@ -1,0 +1,171 @@
+#container-manutencao{
+	width: 100%;
+	position: relative;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+}
+.manutencao2{
+	position: relative;
+	width: 100%;
+	max-width: 1210px;
+	margin: 0 auto;
+	height: auto;
+	display: flex;
+}
+.left-side{
+	width: 60%;
+}
+.right-side{
+	display: flex;
+	position: relative;
+	justify-content: center;
+	width: 40%;
+	height: 100%;
+}
+.imagem img{
+	width: 90%;
+	height: 50%;
+	border-radius: 5px;
+	margin-top: 50px;
+	display: block; 
+	display: flex;
+	flex-wrap: wrap;	
+}
+.texto-img{
+	
+	display: flex;
+	flex-direction: column;
+}
+.texto-img div{
+	margin-top: 20px;
+}
+.contatos-manu{
+	position: relative;
+	display: flex;
+	margin-top: 15px;
+	flex-wrap: wrap;
+	width: 70%;
+	height: 300px;
+	box-shadow: 0 0 5px black; 
+	justify-content: center;
+}
+.contatos-manu div{
+	margin-top: 20px;
+}
+#botao-ligar{
+	width: 100%;
+	height: 50px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-radius: 10px;
+	background-color: #cd3146;
+}
+#botao-wpp{
+	width: 200px;
+	height: 50px;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: center;
+	border-radius: 10px;
+	background-color: lightgreen;
+}
+#botao-email{
+	width: 200px;
+	height: 50px;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: center;
+	border-radius: 10px;
+	background-color: #41464a;
+}
+#botao-email i, #botao-wpp i{
+	font-size: 35px;
+}
+/*area garantia*/
+.garantia{
+	position: relative;
+	display: flex;
+	align-items: flex-start;
+	width: 100%;
+	height: 50px;
+	background-color: #3C73B31F;
+	border-radius: 5px;
+}
+.garantia div{
+	padding-left: 10px;
+	margin-top: 5px;
+	line-height: 20px;
+}
+.area-garantia div i{
+	color: #3c73b3;
+}
+/*area instalação*/
+.area-instalacao{
+	position: relative;
+	width: 100%;
+	max-width: 1210px;
+	margin: 0 auto;
+	
+	margin-top: 50px;
+	display: flex;
+	flex-direction: column;
+	box-sizing: border-box;
+	height: auto;
+}
+/*bloco 2*/
+.bloco2{
+	position: relative;
+	height: auto;
+	position: relative;
+	margin-top: 10px;
+	
+	display: flex;
+}
+.bl2content{
+	position: relative;
+	margin-top: 20px;
+	flex-grow: 1;
+	max-width: 33.33%;
+	word-spacing: 1px;
+	hyphens: auto;
+}
+.bl2content:not(:first-child){
+	padding-left: 10px;
+}
+.bl2content p{
+	font-family: sans-serif;
+
+}
+@media (max-width: 746px)
+{
+	.manutencao2{
+	flex-direction: column;
+	}
+	.left-side{
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	width: 100%;
+	}
+	.imagem img{
+		margin: 0 auto;
+		margin-top: 20px;
+	}
+	.right-side{
+	width: 100%;
+	}
+	.contatos-manu{
+		margin-top: 40px;
+		height: 250px;
+	}
+	.contatos-manu div{
+	margin-top: 10px;
+	}
+}
+.texto-img p{
+	text-align: justify;
+}

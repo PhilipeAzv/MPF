@@ -1,0 +1,1 @@
+var imagens = ["oi", "ola", "tudo bem"]

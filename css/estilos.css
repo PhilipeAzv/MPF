@@ -1,0 +1,48 @@
+body{
+	height: 100%;
+}
+.cabecalho{
+	position: relative;
+	width: 100%;
+	height: auto;
+	background: white-snow;
+	border-bottom: solid 1px black;
+}
+.container{
+	position: relative;
+	display: flex;
+	width: 100%;
+	max-width: 1210px;
+	height: 60px;
+	margin: 0 auto;
+	justify-content: space-between;
+	align-items: center;
+}
+.botao-menu{
+	display: none;
+}
+.menu-principal ul li{
+	text-decoration: none;
+	display: inline-block;
+	padding: 20px; 
+}
+.menu-principal ul{
+	list-style: none;
+}
+.menu-principal ul li:hover{
+	border-bottom: solid 1px red;
+}
+.item-menu a{
+	text-decoration: none;
+	color: grey;
+}
+.item-menu a:hover{
+	color: lightblue;
+	transition: 700ms;
+}
+.item-menu:nth-child(2):after{
+	content: '\25BE';
+	position: absolute;
+	margin-left: 5px;
+}
+
